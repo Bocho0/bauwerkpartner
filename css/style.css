@@ -98,7 +98,7 @@ section.dark .section-intro { color: #C7C9CD; }
   display: flex;
   align-items: flex-end;
   color: #fff;
-  background: linear-gradient(rgba(15,16,18,0.35), rgba(15,16,18,0.85)), url('img/muenchener-tor.jpg') center 30%/cover no-repeat;
+  background: linear-gradient(rgba(15,16,18,0.28), rgba(15,16,18,0.58)), url('../img/muenchener-tor.jpg') center 30%/cover no-repeat;
 }
 .home-hero .wrap { padding-bottom: 70px; position: relative; }
 .home-hero .kicker { color: #FFB894; }
