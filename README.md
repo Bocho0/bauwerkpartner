@@ -1,50 +1,14 @@
-# bauwerkpartner GmbH – Website
+# bauwerkpartner – Test-/Demo-Website
 
-Statische HTML/CSS-Website für bauwerkpartner GmbH.
-
-## Projektstruktur
-
-- `index.html` – Startseite
-- `unternehmen.html` – Unternehmen
-- `leistungen.html` – Leistungen
-- `referenzen.html` – Referenzen
-- `kontakt.html` – Kontakt
-- `impressum.html` – Impressum
-- `datenschutz.html` – Datenschutz
-- `css/style.css` – Stylesheet
-- `img/` – Bilder und Logo
-
-## GitHub
-
-Das **gesamte Repository** sollte den Inhalt dieses Ordners enthalten. `index.html` liegt absichtlich direkt im Repository-Root.
-
-```text
-bauwerkpartner-gmbh/
-├── index.html
-├── unternehmen.html
-├── leistungen.html
-├── referenzen.html
-├── kontakt.html
-├── impressum.html
-├── datenschutz.html
-├── css/
-│   └── style.css
-└── img/
-    └── ...
-```
+**Wichtig:** Dieses Repository enthält ausschließlich eine Test-, Entwurfs- und Demonstrationsversion. Es ist nicht der offizielle Internetauftritt der bauwerkpartner gmbh.
 
 ## Vercel
+- Framework Preset: Other
+- Build Command: leer
+- Output Directory: leer
+- Root Directory: `.`
 
-Beim Import des GitHub-Repositories in Vercel:
+Die Website ist eine statische HTML/CSS-Website. `index.html` liegt direkt im Repository-Root.
 
-- **Framework Preset:** Other / kein Framework
-- **Root Directory:** `.` (Repository-Root)
-- **Build Command:** leer lassen
-- **Output Directory:** leer lassen
-- **Install Command:** leer lassen
-
-Danach deployen. Die Startseite wird über `index.html` ausgeliefert.
-
-## Hinweis zur Übergabe
-
-Vor dem Livegang bitte insbesondere Impressum, Datenschutzerklärung, Kontaktdaten, Telefonnummer, E-Mail-Adresse und rechtliche Pflichtangaben auf Aktualität prüfen.
+## Rechtliche Hinweise
+Impressum und Datenschutzerklärung sind ausdrücklich auf den Testbetrieb ausgerichtet. Vor einem produktiven Einsatz müssen Betreiber/Verantwortlicher, Hosting, Drittanbieter, Kontaktwege und Datenschutz anhand des tatsächlichen Setups rechtlich geprüft und angepasst werden.
