@@ -6,6 +6,7 @@ Statische Single-Page-Website (Test-/Demo-Stand). Keine Build-Tools, keine Abhä
 
 ```
 index.html      komplette Seite (HTML, CSS, JS inline)
+img/            wird zur Laufzeit geladen — muss mit hochgeladen werden
 img/            Logo-Varianten und Referenzfotos
 ```
 
@@ -28,5 +29,7 @@ Lokal: `index.html` im Browser öffnen.
 - Impressum und Datenschutz im Footer sind noch Platzhalter ohne Inhalt.
 - Bildrechte prüfen: `img/statistisches-bundesamt.jpg` ist mit
   „© Statistisches Bundesamt" ausgewiesen.
+- Responsiv: Layout erkennt automatisch die Bildschirmbreite (Umschaltpunkt 860 px).
+  Unter 860 px Burger-Menü, 2x2-Karten und Vollbild-Panels; darüber Desktop-Layout.
 - Schriften (Barlow Condensed, IBM Plex Sans) werden von Google Fonts geladen.
   Für DSGVO-Konformität lokal einbinden.
